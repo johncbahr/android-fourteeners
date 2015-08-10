@@ -1,0 +1,128 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* LICENSE
+* README.md
+* ic_launcher-web.png
+* proguard-project.txt
+* tests/
+* tests/.classpath
+* tests/.project
+* tests/AndroidManifest.xml
+* tests/ic_launcher-web.png
+* tests/libs/
+* tests/libs/android-support-v4.jar
+* tests/proguard-project.txt
+* tests/project.properties
+* tests/res/
+* tests/res/drawable-hdpi/
+* tests/res/drawable-hdpi/ic_launcher.png
+* tests/res/drawable-hdpi/longs.png
+* tests/res/drawable-ldpi/
+* tests/res/drawable-ldpi/ic_launcher.png
+* tests/res/drawable-ldpi/longs.png
+* tests/res/drawable-mdpi/
+* tests/res/drawable-mdpi/ic_launcher.png
+* tests/res/drawable-mdpi/longs.png
+* tests/res/drawable-xhdpi/
+* tests/res/drawable-xhdpi/ic_launcher.png
+* tests/res/drawable-xhdpi/longs.png
+* tests/res/drawable-xxhdpi/
+* tests/res/drawable-xxhdpi/ic_launcher.png
+* tests/res/drawable/
+* tests/res/drawable/oldpaper.jpg
+* tests/res/layout/
+* tests/res/layout/activity_addbag.xml
+* tests/res/layout/activity_home.xml
+* tests/res/layout/activity_register.xml
+* tests/res/layout/history_list_view.xml
+* tests/res/layout/spinner_list_item.xml
+* tests/res/menu/
+* tests/res/menu/register.xml
+* tests/res/values-v11/
+* tests/res/values-v11/styles.xml
+* tests/res/values-v14/
+* tests/res/values-v14/styles.xml
+* tests/res/values/
+* tests/res/values/strings.xml
+* tests/res/values/strings_activity_settings.xml
+* tests/res/values/styles.xml
+* tests/res/xml/
+* tests/res/xml/mountain_data.xml
+* tests/res/xml/pref_general.xml
+* tests/res/xml/pref_headers.xml
+* tests/res/xml/pref_ice.xml
+* tests/src/
+* tests/src/com/
+* tests/src/com/cpiekarski/
+* tests/src/com/cpiekarski/fourteeners/
+* tests/src/com/cpiekarski/fourteeners/activities/
+* tests/src/com/cpiekarski/fourteeners/activities/AddBagActivity.java
+* tests/src/com/cpiekarski/fourteeners/activities/HelpActivity.java
+* tests/src/com/cpiekarski/fourteeners/activities/HikeActivity.java
+* tests/src/com/cpiekarski/fourteeners/activities/HomeActivity.java
+* tests/src/com/cpiekarski/fourteeners/activities/RegisterActivity.java
+* tests/src/com/cpiekarski/fourteeners/activities/SettingsActivity.java
+* tests/src/com/cpiekarski/fourteeners/register/
+* tests/src/com/cpiekarski/fourteeners/register/Register.java
+* tests/src/com/cpiekarski/fourteeners/register/RegisterEntry.java
+* tests/src/com/cpiekarski/fourteeners/register/RegisterHelper.java
+* tests/src/com/cpiekarski/fourteeners/test/
+* tests/src/com/cpiekarski/fourteeners/test/AddBagActivityIsolationTest.java
+* tests/src/com/cpiekarski/fourteeners/test/AllSummitRegisterTests.java
+* tests/src/com/cpiekarski/fourteeners/test/HikeActivityFunctionalTest.java
+* tests/src/com/cpiekarski/fourteeners/test/HikeActivityIsolationTest.java
+* tests/src/com/cpiekarski/fourteeners/test/LocationTest.java
+* tests/src/com/cpiekarski/fourteeners/test/MountainsTest.java
+* tests/src/com/cpiekarski/fourteeners/test/RegisterDateTest.java
+* tests/src/com/cpiekarski/fourteeners/test/RegisterEntryTest.java
+* tests/src/com/cpiekarski/fourteeners/test/RegisterTest.java
+* tests/src/com/cpiekarski/fourteeners/utils/
+* tests/src/com/cpiekarski/fourteeners/utils/DeviceLocation.java
+* tests/src/com/cpiekarski/fourteeners/utils/Mountain.java
+* tests/src/com/cpiekarski/fourteeners/utils/Mountains.java
+* tests/src/com/cpiekarski/fourteeners/utils/RegisterDate.java
+* tests/src/com/cpiekarski/fourteeners/utils/SRLOG.java
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
