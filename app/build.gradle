@@ -8,6 +8,9 @@ android {
         applicationId "com.cpiekarski.fourteeners"
         minSdkVersion 19
         targetSdkVersion 19
+
+        testApplicationId "com.cpiekarski.fourteeners.test"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
     }
 
     buildTypes {
@@ -20,4 +23,5 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:19.1.0'
+    androidTestCompile 'com.android.support:support-v4:19.1.0'
 }
