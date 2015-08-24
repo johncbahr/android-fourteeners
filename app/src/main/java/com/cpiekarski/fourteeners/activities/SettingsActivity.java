@@ -18,6 +18,8 @@ import com.cpiekarski.fourteeners.utils.SRLOG;
 
 import java.util.List;
 
+// TODO We have a mix of the new PreferenceFragment class and the old PreferenceActivity
+
 /**
  * A {@link PreferenceActivity} that presents a set of application settings. On
  * handset devices, settings are presented as a single list. On tablets,
@@ -38,6 +40,7 @@ public class SettingsActivity extends PreferenceActivity {
      */
     private static final boolean ALWAYS_SIMPLE_PREFS = false;
     private static final String TAG = "RegisterSettingsActivity";
+
 
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
@@ -61,15 +64,18 @@ public class SettingsActivity extends PreferenceActivity {
 
 
         // Add 'notifications' preferences, and a corresponding header.
+
+        // Add 'general' preferences.
         PreferenceCategory fakeHeader = new PreferenceCategory(this);
         fakeHeader.setTitle(R.string.pref_header_general);
         getPreferenceScreen().addPreference(fakeHeader);
-        
-        // Add 'general' preferences.
+
         addPreferencesFromResource(R.xml.pref_general);
        
 
         // Add 'data and sync' preferences, and a corresponding header.
+
+        // Add ICE preferences
         fakeHeader = new PreferenceCategory(this);
         fakeHeader.setTitle(R.string.pref_header_ice);
         getPreferenceScreen().addPreference(fakeHeader);
@@ -195,7 +201,7 @@ public class SettingsActivity extends PreferenceActivity {
     }
     
     /**
-     * This fragment shows general preferences only. It is used when the
+     * This fragment shows ICE preferences only. It is used when the
      * activity is showing a two-pane settings UI.
      */
     public static class ICEPreferenceFragment extends PreferenceFragment {
