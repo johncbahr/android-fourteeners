@@ -41,3 +41,9 @@ Thumbs.db
 # Ignore gradle files
 .gradle
 build/
+
+# Log Files
+*.log
+
+.idea/
+/app/google-services.json
