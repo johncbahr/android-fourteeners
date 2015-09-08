@@ -54,7 +54,4 @@ gradle-app.setting
 .gradle
 build/
 
-# Log Files
-*.log
-
-/app/google-services.json
+app/google-services.json
