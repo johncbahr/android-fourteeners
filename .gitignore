@@ -38,6 +38,18 @@ Thumbs.db
 # Mac OS X clutter
 .DS_Store
 
+#Android Studio Navivation editor temp files
+.navigation/
+
+# Android Patch
+gen-external-apklibs
+
+#Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
 # Ignore gradle files
 .gradle
 build/
@@ -45,5 +57,4 @@ build/
 # Log Files
 *.log
 
-.idea/
 /app/google-services.json
